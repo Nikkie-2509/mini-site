@@ -38,15 +38,35 @@ h1{
 
 /* pagina home */
 
+
 .home body{
     background-color: aliceblue;
+    
 }
 
 /* pagina sobre */
+.sobre body{
+    place-items: center;
+}
+
 table{
-    border: 2px solid blue;
-    border-radius: 10px;
+    border-color: blue;
+    border-radius: 5px;
     text-align: center;
+    width: 800px;
+    height: 400px;
+    border-collapse: center;
+}
+/* cor dos titulos (horizontal) */
+
+table th{
+    background-color: pink; 
+    color: blueviolet;
+}
+/* cor da coluna dos tamahos (vertical */
+table tr td:nth-child(1){
+    background-color: pink;
+    color: blueviolet;
 }
 
 .sobre body{
