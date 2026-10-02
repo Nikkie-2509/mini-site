@@ -150,8 +150,18 @@ table tr td{
     max-width: 1000px;
 }
 
-.contatos .tabela{
-  align-items: center;
+.contatos ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+} 
+
+.contatos a{
+    text-decoration: none;
+    color: black;
+}
+.contatos a:hover{
+    color: #790D16;
 }
 
 .contentContatos h1{    
